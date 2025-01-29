@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 00.1 - Function Component Questions</title>
+    <link rel="stylesheet" href="Assets/CSS/bootstrap.css" />
+  </head>
+
+  <body data-bs-theme="dark">
+    <div class="container">
+      <h1 class="text-center mt-5">To-Do List</h1>
+
+      <form
+        action=""
+        class="form d-flex justify-content-center align-items-center mt-5"
+      >
+        <div class="form-floating d-flex align-items-center">
+          <input
+            type="text"
+            name="toDoInput"
+            id="todoInput"
+            class="form-control rounded-pill"
+            placeholder="Enter the Data!"
+            style="width: 600px"
+          />
+          <label for="todoInput">To-Do Tasks</label>
+
+          <div id="taskError"></div>
+        </div>
+
+        <div class="submitBtn align-items-center">
+          <button
+            type="submit"
+            id="todoSubmit"
+            class="btn btn-success ms-3 rounded-3"
+          >
+            Create
+          </button>
+        </div>
+      </form>
+
+      <ul id="todoList" class="List-group"></ul>
+    </div>
+
+    <script src="Assets/JavaScript/Class Based Components/3.js"></script>
+    <script src="Assets/JavaScript/Script/bootstrap.bundle.js"></script>
+  </body>
+</html>
